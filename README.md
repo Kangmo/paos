@@ -3,6 +3,10 @@ PAOS (Peter-Anna Operating System)
 
 An Embedded OS kernel with pthread API running on Atmel AVR
 
+Warning
+=======
+This project is on hold since Jul. 2007, and there is no plan to continue to implement features.
+
 Summary
 =======
 PAOS implements pthread interface on Atmel AVR such as [ATmega128](http://www.atmel.com/devices/atmega128.aspx)
