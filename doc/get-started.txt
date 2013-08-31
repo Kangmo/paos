@@ -1,0 +1,26 @@
+A. Download WinAVR from http://winavr.sourceforge.net/ and install to C:\Programs\WinAVR
+
+B. To Build and Execute from VMLAB
+  1. Download VMLAB from http://www.amctools.com/
+  2. Install and execute VMLAB
+  3. Execute [Project][Open Project]
+  4. Select src/paos-vmlab-atmega128.prj
+  5. Execute [Project][Re-build all]
+  6. Execute [Run][Go/Continue]
+  7. Execute [View][Control Panel] to see PAOS messages
+  
+C. To Build and Execute from AVRStudio
+  1. Download AVRStudio from http://www.atmel.com/
+  2. Install and execute AVRStudio
+  3. Execute [Project][Open Project]
+  4. Select src/paos-avrstudio-atmega128.aps
+  5. Execute [Build][Rebuild all]
+  6. Execute [Debug][Start Debugging]
+
+D. To see PAOS messages from AVRStudio
+  1. Execute [Debug][Select Platform and Device]
+  2. Select AVR Simulator and ATMega128
+  3. Execute [Build][Rebuild all]
+  4. Execute [Debug][Start Debugging]
+  5. Download HAPSIM from http://www.helmix.at/hapsim/
+  6. Install and execute HAPSIM to see PAOS messages

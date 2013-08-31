@@ -1,0 +1,42 @@
+; ************************************************************
+; PROJECT:
+; AUTHOR:
+; ************************************************************
+
+; Micro + software running
+; ------------------------------------------------------------
+.MICRO "ATmega128"
+.TOOLCHAIN "GCC"
+.GCCPATH   "C:\Programs\WinAVR"
+.GCCMAKE   AUTO
+.TARGET    "paos-vmlab-atmega128.hex"
+.SOURCE    "md.c" "md_asm.S" "uart.c" "list.c" "base.c"
++          "debug.c" "task.c" "sched.c" "evt.c" "conc_mutex.c"
++          "conc_cond.c" "pthread.c" "main.c"
++          "test_pthread_mutex_lock.c"
+
+;.TRACE              ; Activate micro trace
+
+; Following lines are optional; if not included
+; exactly these values are taken by default
+; ------------------------------------------------------------
+.POWER VDD=5 VSS=0  ; Power nodes
+.CLOCK 16meg         ; Micro clock
+;.STORE 250m         ; Trace (micro+signals) storage time
+
+; Micro nodes: RESET, AREF, PA0-PA7, PB0-PB7, PC0-PC7, PD0-PD7, PE0-PE7, PF0-PF7, PG0-PG4, TIM1OVF
+; Define here the hardware around the micro
+; ------------------------------------------------------------
+
+Xtty TTY2(57.6K 8 0 0 1 1) TTY_TX TTY_RX
+; Connect CPU.rx to TTY_TX
+R0 PE0 TTY_TX 0.001K
+; Connect CPU.tx to TTY_RX
+R1 PE1 TTY_RX 0.001K
+
+
+
+
+
+
+

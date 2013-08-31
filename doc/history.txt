@@ -1,0 +1,8 @@
+11/21/2006
+- Imported files to svn 
+- Preemptive context switching works pretty well.
+- Todo : sleep, pthread_mutex_xxxx, pthread_cond_xxxx
+
+01/08/2006
+- Mutex lock/unlock works well
+- Todo : add test cases
