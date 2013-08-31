@@ -13,8 +13,10 @@ List of Features
 *  Preemptive scheduler @ pthread interface
 *  USART driver
 
-Current Project Status ( Implementation / Testing )
-===================================================
+Current Project Status 
+======================
+
+Feature and ( Implementation progress / Testing progress )
 
 *  pthread_create ... 90% / 50%
 *  pthread_self ... 90% / 50%
