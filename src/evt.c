@@ -21,16 +21,7 @@
                                Peter and Anna ( kangmo.kim@gmail.com )
         [ License Information ] ======================================
          
-          Dual License
-            1. GPL
-            2. PAOS Commercial License
-             
-          License Selection Algorithm             
-            IF You can open your whole source code
-              You are under GPL license
-            ELSE
-              You are under PAOS Commercial License
-            FI
+          Apache v2 License
                                 
         [ Information on Layering Architecture of PAOS ] =============
 

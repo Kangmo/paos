@@ -43,7 +43,7 @@ Feature and ( Implementation progress / Testing progress )
 
 License
 =======
-GPL v2 License
+Apache v2 License
 
 
 
